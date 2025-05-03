@@ -31,7 +31,7 @@ export default defineNuxtModule<ModuleOptions>({
     rsa: null,
     responseEncrypt: null,
     authorization: null,
-  } as ModuleOptions,
+  },
   setup(_options, _nuxt) {
     const resolver = createResolver(import.meta.url)
 

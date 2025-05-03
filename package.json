@@ -1,10 +1,10 @@
 {
-  "name": "module-siste-pco-security",
+  "name": "@cristiannorga/security",
   "version": "1.0.1",
+  "description": "My new Nuxt module security",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "description": "My new Nuxt module security",
   "repository": "https://github.com/CristianNorga/module-siste-pco-security",
   "license": "MIT",
   "type": "module",

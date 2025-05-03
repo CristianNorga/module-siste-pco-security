@@ -1,6 +1,9 @@
 {
   "name": "module-siste-pco-security",
   "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "description": "My new Nuxt module security",
   "repository": "https://github.com/CristianNorga/module-siste-pco-security",
   "license": "MIT",
@@ -31,7 +34,8 @@
   "dependencies": {
     "@nuxt/kit": "^3.16.0",
     "crypto-js": "^4.2.0",
-    "defu": "^6.1.4"
+    "defu": "^6.1.4",
+    "jose": "^6.0.10"
   },
   "devDependencies": {
     "@nuxt/devtools": "^2.2.1",

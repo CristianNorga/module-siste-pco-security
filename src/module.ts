@@ -50,7 +50,7 @@ export default defineNuxtModule<ModuleOptions>({
     if (config.security.authorization?.enabled) {
       addServerHandler(
         {
-          handler: resolver.resolve('./runtime/server/middleware/authorizationBasic.ts'),
+          handler: resolver.resolve('./runtime/server/middleware/authorizationBasic'),
           middleware: true,
         },
       )
@@ -65,7 +65,7 @@ export default defineNuxtModule<ModuleOptions>({
           '}',
         ].join('\n'),
       })
-      addServerPlugin(resolver.resolve('./runtime/server/plugins/encryptReponse.ts'))
+      addServerPlugin(resolver.resolve('./runtime/server/plugins/encryptReponse'))
     }
   },
 })

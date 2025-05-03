@@ -22,7 +22,7 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'siste-security',
+    name: '@cristiannorga/security',
     configKey: 'security',
   },
   // Default configuration options of the Nuxt module

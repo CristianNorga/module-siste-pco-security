@@ -1,6 +1,6 @@
-import { importJWK, compactDecrypt } from 'jose'
 import { fileURLToPath } from 'node:url'
-import { describe, it, expect, afterAll, vitest } from 'vitest'
+import { importJWK, compactDecrypt } from 'jose'
+import { describe, it, expect } from 'vitest'
 import { setup, $fetch } from '@nuxt/test-utils/e2e'
 // import { defineCrypto } from '../src/runtime/server/utils/crypto'
 

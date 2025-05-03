@@ -1,6 +1,6 @@
 {
   "name": "@cristiannorga/security",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My new Nuxt module security",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
